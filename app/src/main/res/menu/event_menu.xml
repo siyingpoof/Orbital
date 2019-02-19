@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Edit event"
+        android:id="@+id/itemEditEvent"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Delete event"
+        android:id="@+id/itemDeleteEvent"
+        app:showAsAction="ifRoom"/>
+
+</menu>

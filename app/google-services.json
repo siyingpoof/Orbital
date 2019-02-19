@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "631630652361",
+    "firebase_url": "https://alive-a55cb.firebaseio.com",
+    "project_id": "alive-a55cb",
+    "storage_bucket": "alive-a55cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631630652361:android:a2d69616620c778d",
+        "android_client_info": {
+          "package_name": "com.example.alvinaong.alive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631630652361-7s1mrvbv6v3mcle2rop32o0canv346rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alvinaong.alive",
+            "certificate_hash": "480360402922e59b2cf38bcf8a496eabc7be8571"
+          }
+        },
+        {
+          "client_id": "631630652361-q6ikd71u0joqp54ifsa3ccl695ac6fk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfLvZe2SXQX4zPvJbVrwGHyyAOHI7koY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631630652361-q6ikd71u0joqp54ifsa3ccl695ac6fk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

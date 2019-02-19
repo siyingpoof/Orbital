@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vol_log_bg"
+    tools:context=".Help_Org">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Guide"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/market_saturday"
+                android:textSize="60dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a volunteering app that connects like-minded volunteers like YOU and organisers."
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_default"
+                android:text="HOME PAGE"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. View list of events to sign up for\n
+2. Click on the listing to find out more\n
+3. Click on the button at the bottom to sign up!\n
+4. Click on the stats button (top right) to access your log\n
+5. Click on the QR button to display your unique QR code!"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_default"
+                android:text="LOG PAGE"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. View personal details\n
+2. Progress bar reflects the number of hours clocked\n
+3. View list of upcoming events"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_default"
+                android:text="QR CODE"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Access your unique QR code from your home page and show it to the event organiser on the day of the event for attendance taking!"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_default"
+                android:text="MAKERS OF ALIVE"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/colorTwo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makers of ALive:
+Ong Si Ying (ongsiying@u.nus.edu)
+Ng Ee Hooi (e0202526@u.nus.edu)
+
+Please contact us for any enquiries."
+                android:layout_margin="10dp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

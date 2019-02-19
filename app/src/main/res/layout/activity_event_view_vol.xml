@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vol_log_bg"
+    tools:context=".Event_View_Vol">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/org_photo"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/photo" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/event_name"
+                android:fontFamily="@font/market_saturday"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_date"
+                android:fontFamily="@font/bebas_neue"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_time"
+                android:fontFamily="@font/bebas_neue"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/quota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quota: "
+                    android:fontFamily="@font/bebas_neue"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:padding="1dp"/>
+
+                <TextView
+                    android:id="@+id/txtQuota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/event_quota"
+                    android:fontFamily="@font/bebas_neue"
+                    android:textSize="22sp"
+                    android:padding="1dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/venue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Venue: "
+                    android:fontFamily="@font/bebas_neue"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:padding="1dp"/>
+
+                <TextView
+                    android:id="@+id/txtVenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/event_venue"
+                    android:fontFamily="@font/bebas_neue"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:padding="1dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/sign_up_id"
+                android:layout_width="wrap_content"
+                android:padding="20dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/sign_up_now"
+                android:textColor="@color/colorThree"
+                android:elevation="10dp"
+                android:background="@drawable/btn_bg_default"/>
+
+        </LinearLayout>
+        
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

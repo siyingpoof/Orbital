@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ALive</string>
+
+    <string-array name="schoolChoices">
+        <item>National University of Singapore</item>
+        <item>Nanyang Technological University</item>
+        <item>Singapore Management University</item>
+        <item>Singapore University of Social Sciences</item>
+        <item>Singapore University of Technology and Design</item>
+        <item>Singapore Institute of Management</item>
+    </string-array>
+
+    <string name="title_activity_floating__add__event">Floating_Add_Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="organisation_name">Organisation Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_time">Event Time</string>
+    <string name="event_quota">Event Quota</string>
+    <string name="organisation_logo">Organisation Logo</string>
+    <string name="description">Description</string>
+    <string name="event_venue">Event Venue</string>
+    <string name="photo">Photo</string>
+    <string name="sign_up_now">Sign Up Now!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_user">New User</string>
+    <string name="volunteer_signup">Sign up as a volunteer now!</string>
+    <string name="org_signup">Sign up as an organiser now!</string>
+    <string name="home">Home</string>
+    <string name="log_out">Log Out</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="qr_msg_default">Please focus camera to QR Code</string>
+    <string name="next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout">Logout</string>
+    <string name="log">Log</string>
+    <string name="event_signups">Event Signups</string>
+    <string name="successfully_logged_out">Successfully Logged Out</string>
+    -<string name="back_to_sign_in">
+
+-<![CDATA[Back to sign in ->]]>
+</string>
+
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_vol">Login as Volunteer</string>
+    <string name="login_org">Login as Organiser</string>
+    <string name="search_for_activity">Search for Activity</string>
+    <string name="qr_code">QR Code</string>
+    <string name="view_sign_ups_list">View Sign Ups List</string>
+    <string name="continue_as_organiser">Continue as Organiser</string>
+    <string name="continue_as_volunteer">Continue as Volunteer</string>
+    <string name="not_a_member_sign_up_now">Not a member? Sign up now!</string>
+    <string name="alive">ALive</string>
+
+
+</resources>
